@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vipzone Tech | Electrónica y Perfumes</title>
+  <meta name="description" content="Vipzone Tech - Electrónica y perfumes originales en Paraguay. 3 años de experiencia. Ventas por WhatsApp con contra entrega." />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #111827;
+    }
+    .cta {
+      background-color: #0f2027;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 50px;
+      font-size: 1rem;
+    }
+    footer {
+      background-color: #000;
+      color: #bbb;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Vipzone Tech Logo" style="max-width:180px;margin-bottom:20px;" />
+    <h1>Vipzone Tech</h1>
+    <p>Electrónica y perfumes originales en Paraguay</p>
+    <p style="margin-top:15px;font-style:italic;opacity:0.85;">“VENDER ES SERVIR, AMDG.”</p>
+  </header>
+
+  <section>
+    <h2>¿Quiénes somos?</h2>
+    <p>
+      En <strong>Vipzone Tech</strong> contamos con más de <strong>3 años de experiencia</strong> ofreciendo
+      productos de electrónica y perfumes originales, con atención personalizada y envíos a todo el país.
+    </p>
+  </section>
+
+  <section>
+    <h2>¿Qué vendemos?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>📱 Electrónica</h3>
+        <p>Celulares, accesorios, gadgets y productos tecnológicos de alta calidad.</p>
+      </div>
+      <div class="card">
+        <h3>🌸 Perfumes</h3>
+        <p>Perfumes originales para hombres y mujeres, ideales para uso personal o regalos.</p>
+      </div>
+      <div class="card">
+        <h3>🚚 Envíos</h3>
+        <p>Realizamos envíos a todo Paraguay con opción de contra entrega.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>¿Por qué elegirnos?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>✔ Experiencia</h3>
+        <p>Más de 3 años vendiendo con clientes satisfechos.</p>
+      </div>
+      <div class="card">
+        <h3>✔ Confianza</h3>
+        <p>Productos verificados y atención directa por WhatsApp (mensaje,llamada o video llamada).</p>
+      </div>
+      <div class="card">
+        <h3>✔ Atención rápida</h3>
+        <p>Respondemos rápido y te ayudamos a elegir el producto ideal.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <h2>Compra fácil y segura</h2>
+    <p>Escríbenos ahora y realiza tu pedido en minutos</p>
+    <a href="https://wa.me/+595994329133" target="_blank">📲 Contactar por WhatsApp</a>
+  </div>
+
+  <footer>
+    © 2026 Vipzone Tech | Electrónica y Perfumes
+  </footer>
+
+</body>
+</html>
